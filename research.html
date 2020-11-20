@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <meta name="description" content="Research by Keith O'Hara">
-    <meta name="author" content="Keith O'Hara">
+    <meta name="description" content="Research by Jialin Yu">
+    <meta name="author" content="Jialin Yu">
 
-    <meta name="keywords" content="Economics, PhD student, NYU, New York University, Econometrics, R, C++, Cpp, Research" />
+    <meta name="keywords" content="Computer Scientist, MSc student, UCL, University College London, R, C++, Cpp, Research" />
 
     <link rel="shortcut icon" type="image/x-icon" href="siteicon.ico">
 
@@ -65,21 +65,20 @@
                 <h2 class="page-header"> Working Papers </h2>
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4>Improved colonoscopy polyp detection with massive endoscopic images</h4>
-                        <h5>(with <a href="https://sites.google.com/site/rossdoppelt/" target="_blank">Ross Doppelt</a>)</h5>
-                        <h5><em>Revise and Resubmit at Journal of Econometrics</em></h5>
+                        <h4>Improved colonoscopy polyp detection with massive endoscopic images</h4>                   
+                        <h5><em>Under Revision</em></h5>
                         <hr style="height:2px;border-width:0;background-color:black" />
                         <!-- <hr /> -->
                         <h4><strong style="font-size: 90%;"><a data-toggle="collapse" href="#collapse1">Abstract</a> | <a href="docs/Doppelt_OHara_FIVARs.pdf" target="_blank">Paper</a> </strong></h4>
                     </div>
                     <div id="collapse1" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <p>We introduce a new method for Bayesian estimation of fractionally integrated vector autoregressions (FIVARs). 
-                               The FIVAR, which nests a standard VAR as a special case, allows each series to exhibit long memory, meaning that 
-                               low frequencies can play a dominant role &mdash; a salient feature of many macroeconomic and financial time series. 
-                               Although the parameter space is typically high-dimensional, our inferential procedure is computationally tractable 
-                               and relatively easy to implement. We apply our methodology to the identification of technology shocks, an empirical 
-                               problem in which business-cycle predictions depend on carefully accounting for low-frequency fluctuations.</p>
+                            <p>We improved an existing end-to-end polyp detection model with better average precision validated by different data sets with trivial cost on detection speed.
+                                Previous work on detecting polyps within colonoscopy \cite{Chen2018} provided an efficient end-to-end solution to alleviate 
+                                doctor's examination overhead. However, our later experiments found this framework is not as robust as before as the condition of polyp capturing varies. 
+                                In this work, we conducted several studies on data set, identifying main issues that causes low precision rate in the task of polyp detection. We used an optimized anchor generation methods
+                                to get better anchor box shape and more boxes are used for detection as we believe this is necessary for small object detection. A alternative backbone is used to compensate the heavy 
+                                time cost introduced by dense anchor box regression. With use of the attention gate module, our model can achieve state-of-the-art polyp detection performance while still maintain real-time detection speed.</p>
                         </div>
                     </div>
                 </div>
