@@ -1,9 +1,9 @@
-- company: Google
+- company: Tailin 
   description: Research Scientist
   dates: "May 2022 - Jan 2024"
   location: San Francisco, CA
 
-- company: Google
+- company: MyHexin
   description: >-
     Research Intern on the <a href="https://blog.google/technology/research/project-starline/">Project Starline</a> team.
     Worked on <a href="https://nerfies.github.io">Nerfies</a> and <ahref="https://hypernerf.github.io">HyperNeRF</a>.

@@ -1,18 +1,14 @@
 - id: illuminerf
-  title: "IllumiNeRF 3D Relighting without Inverse Rendering"
-  venue: arXiv, 2024
-  description: "3D relighting by distilling samples from a 2D image relighting diffusion model into a latent-variable NeRF."
-  project_page: https://illuminerf.github.io
-  arxiv: 2406.06527
+  title: "Colonoscopy polyp detection with massive endoscopic images"
+  venue: arXiv, 2022
+  description: "Using an optimized RetinaNet structure for polyp detection."
+  arxiv: 2202.08730 
   image: illuminerf_before.jpg
   image_mouseover: illuminerf_after.mp4
   authors:
-    - xiaomingzhao
-    - pratuls
-    - dorverbin
-    - keunhong
-    - rmbrualla
-    - phenzler
+    - Jialin Yu 
+    - Huogen Wang 
+    - Ming Chen
 - id: reconfusion
   title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
   venue: CVPR, 2024
