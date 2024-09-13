@@ -25,8 +25,7 @@ email: ucabjj2@ucl.ac.uk
 description: >-
   I am a researcher in 3D computer vision, generative models, and computer graphics. I was previously a research scientist at [Google](https://ai.google/research/).
 
-  I received my MSc in Computer Vison from the [University College London] in 2021 where I was supervised by #(https://grail.cs.washington.edu/) in 2021 #where I was advised by
-  #[Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
+  I received my MSc in Computer Vison from the [University College London] in 2021 where I was supervised by 
   [Lewis Griffin](https://profiles.ucl.ac.uk/3815-lewis-griffin/).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jialinyu.com" # the base hostname & protocol for your site, e.g. http://example.com
