@@ -32,7 +32,7 @@ url: "https://jialinyu.com" # the base hostname & protocol for your site, e.g. h
 # twitter_username: KeunhongP
 github_username: pleaseRedo
 #google_scholar: HVZb-5oAAAAJ
-#google_analytics: G-MFWSBLRKG0
+google_analytics: G-30ZBV7DZ04
 
 # Build settings
 theme: minima
