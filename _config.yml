@@ -29,9 +29,9 @@ description: >-
   [Lewis Griffin](https://profiles.ucl.ac.uk/3815-lewis-griffin/).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jialinyu.com" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: KeunhongP
+twitter_username: YuJialin9
 github_username: pleaseRedo
-#google_scholar: HVZb-5oAAAAJ
+google_scholar: DNdv6JkAAAAJ
 google_analytics: G-30ZBV7DZ04
 
 # Build settings
