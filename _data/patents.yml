@@ -1,10 +1,11 @@
 - id: auto
   title: "An automatic colony counting method and system(Chinese)"
-  year: 2023
-  description: "Using an optimized RetinaNet structure for polyp detection."
+  year: China, 2023
+  description: "Colony counter."
   arxiv: 2202.08730v2
-  image: polyp.png
   authors:
+    - xinqun
+    - zhenbo
+    - yongquan
+    - hongbing
     - jialin
-    - huogen
-    - chenming
