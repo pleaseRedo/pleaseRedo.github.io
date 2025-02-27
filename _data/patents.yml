@@ -1,7 +1,8 @@
 - id: auto
-  title: "An automatic colony counting method and system(Chinese)"
+  title: "Automatic bacterial colony culture counting system(Chinese)"
   year: China, 2023
   description: "Colony counter."
+  patent_page: https://patents.google.com/patent/CN219792975U/en
   arxiv: 2202.08730v2
   authors:
     - xinqun

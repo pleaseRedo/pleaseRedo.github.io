@@ -137,7 +137,7 @@ layout: null
         {% for patent in site.data.patents %}
         <div class="columns">
           <div class="column is-four-fifths">
-            <a href="{{ patent.project_page }}"><b>{{ patent.title }}</b></a>
+            <a href="{{ patent.patent_page }}"><b>{{ patent.title }}</b></a>
             <div class="patent-authors">
               {% for author_id in patent.authors %}
               {% assign author = site.data.authors[author_id] %}
