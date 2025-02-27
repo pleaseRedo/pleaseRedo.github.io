@@ -169,79 +169,51 @@ layout: null
         </div>
       </div>
       {% endfor %}
-    </div>
-  </section>
 
-  <!-- Start of Projects Section -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Projects</h2>
 
-    <!-- Loop through the projects data -->
-    <div class="content">
-      <ul>
-        {% for project in site.data.projects %}
-          <!-- Check if the project has a title and project page -->
-          {% if project.title and project.project_page %}
-            <div class="publication-block columns">
-              <!-- Left Column: Image/Video -->
-              <div class="column is-2">
-                <div class="publication-image {% if project.image_mouseover %}publication-mousecell{% endif %}">
-                  <!-- Handle video mouseover (if applicable) -->
-                  <!-- Check for .mp4 format (video) -->
-                  {% if project.image_mouseover contains ".mp4" %}
-                    <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
-                      <source src="./images/{{ project.image_mouseover }}" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  
-                  <!-- Check for .gif format (gif) -->
-                  {% elsif project.image_mouseover contains ".gif" %}
-                    <img src="./images/{{ project.image_mouseover }}" alt="Mouseover GIF" height="100%" width="100%" />
-                  {% else %}
-                    <!-- Default image if neither .mp4 nor .gif -->
-                    <img alt="{{ project.title }}" src="./images/{{ project.image }}" />
-                  {% endif %}
-                  <!-- Default image for the project -->
-                  <img alt="{{ project.title }}" src="./images/{{ project.image }}" />
-                </div>
-              </div>
+      <h2 class="title is-3">Projects</h2>
+      {% for project in site.data.projects %}
+      <div class="publication-block columns">
 
-              <!-- Right Column: Project Info -->
-              <div class="column">
-                <div class="content">
-                  <!-- Project Title -->
-                  <h3 class="publication-title">
-                    <a href="{{ project.project_page }}">{{ project.title }}</a>
-                  </h3>
-                  <div class="project-description">
-                    <!-- Description of the project (markdownified) -->
-                    <p>{{ project.description | markdownify }}</p>
-                  </div>
+        <div class="column is-2">
+          <div class="publication-image {% if project.image_mouseover %}publication-mousecell{% endif %}">
+            {% if project.image_mouseover contains "mp4" %}
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
+              <source src="./images/{{ project.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% endif %}
+            <img alt="{{ project.title }}" src="./images/{{ project.image }}" />
+          </div>
+        </div>
 
-                  <!-- Project Links Section -->
-                  <div class="project-links buttons field has-addons">
-                    <!-- Project Page link with GitHub icon -->
-                    <a class="external-link button is-small is-ghost" href="{{ project.project_page }}">
-                      <span class="icon"><i class="fab fa-github"></i></span>
-                      <span>Project Page</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title"><a href="{{ project.project_page }}">{{ project.title }}</a></h3>
+            <p class="publication-description">{{ project.description }}</p>
+            <!-- Project Links. -->
+            <div class="publication-links buttons field has-addons">
+
+              {% if project.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ project.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Project Page</span>  <!-- Could call it Code. -->
+              </a>
+              {% else %}
+              <a class="external-link button is-small is-ghost" href="{{ project.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              {% endif %}
             </div>
-          {% else %}
-            <!-- If project is missing title or project page, display a warning -->
-            <div class="alert alert-warning">
-              <p><strong>Warning:</strong> A project is missing title or project page link. Please check the project data.</p>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </ul>
+            <!--/ Project Links. -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-  </div>
-</section>
-<!-- End of Projects Section -->
+  <!-- </section> -->
+
 
   <footer class="footer">
     <div class="container">
