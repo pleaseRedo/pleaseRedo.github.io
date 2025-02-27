@@ -1,6 +1,7 @@
 - name: University College London
   description: >-
     MSc. in Computer Graphics, Vision and Imaging, advised by <a href="https://profiles.ucl.ac.uk/3815-lewis-griffin/">Lewis Griffin</a> 
+
     # <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
   dates: Fall 2018 - Fall 2019
 
@@ -8,5 +9,6 @@
   description: >-
     BSc. in Computer Science, advised by <a href="https://www.yongliangyang.net/">Yong-Liang Yang</a>.
     Supported by Bath Excellence in Science 2013 
-    #(£2,000/year)
+    
+    # (£2,000/year)
   dates: Fall 2013 - Spring 2017

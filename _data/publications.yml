@@ -1,4 +1,4 @@
-- id: illuminerf
+- id: polyp
   title: "Colonoscopy polyp detection with massive endoscopic images"
   venue: arXiv, 2022
   description: "Using an optimized RetinaNet structure for polyp detection."
