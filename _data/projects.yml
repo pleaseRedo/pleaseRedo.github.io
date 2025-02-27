@@ -1,13 +1,13 @@
 projects:
   - title: "Awesome Project"
     project_page: "https://github.com/username/project1"
-    image: "project1.jpg"
-    image_mouseover: "project1-hover.mp4"  # Optional
+    image: "illuminerf_before.jpg"
+    image_mouseover: "illuminerf_after.mp4"  # Optional
     description: "This is a detailed description of an amazing project."
   
   - title: "Another Cool Project"
     project_page: "https://github.com/username/project2"
-    image: "project2.jpg"
+    image: "illuminerf_before.jpg"
     description: "Short description of another project."
   
   - title: "Project Without Image"
