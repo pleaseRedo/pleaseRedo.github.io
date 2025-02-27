@@ -131,6 +131,34 @@ layout: null
           </div>
         </div>
         {% endfor %}
+
+        <h2>Patent</h2>
+
+        {% for patent in site.data.patents %}
+        <div class="columns">
+          <div class="column is-four-fifths">
+            <a href="{{ patent.project_page }}"><b>{{ patent.title }}</b></a>
+            <div class="patent-authors">
+              {% for author_id in patent.authors %}
+              {% assign author = site.data.authors[author_id] %}
+              <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                {% if author.is_me %}
+                {{ author.first_name | slice: 0 }}. {{ author.last_name }}{% if forloop.last == false %},{%
+                endif %}
+                {% else %}
+                <a href="{{ author.website }}">{{ author.first_name | slice: 0 }}. {{ author.last_name }}</a>{% if
+                forloop.last == false %},{% endif %}
+                {% endif %}
+              </span>
+              {% endfor %}
+            </div>
+            {{ patent.description }}
+          </div>
+          <div class="column is-one-fifths has-text-right">
+            {{ patent.year }}
+          </div>
+        </div>
+        {% endfor %}
       </div>
     </div>
   </section>
