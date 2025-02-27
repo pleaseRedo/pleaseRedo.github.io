@@ -2,9 +2,8 @@
   title: "Colonoscopy polyp detection with massive endoscopic images"
   venue: arXiv, 2022
   description: "Using an optimized RetinaNet structure for polyp detection."
-  arxiv: 2202.08730 
-  image: illuminerf_before.jpg
-  image_mouseover: illuminerf_after.mp4
+  arxiv: 2202.08730v2
+  image: polyp.png
   authors:
     - jialin
     - huogen

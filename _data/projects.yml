@@ -1,14 +1,26 @@
-  - title: "Awesome Project"
-    project_page: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
-    image: illuminerf_before.jpg
-    image_mouseover: "illuminerf_after.mp4"  # Optional
-    description: "This is a detailed description of an amazing project."
+  # - title: "Awesome Project"
+  #   project_page: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
+  #   image: illuminerf_before.jpg
+  #   image_mouseover: "illuminerf_after.mp4"  # Optional
+  #   description: "This is a detailed description of an amazing project."
   
-  - title: "Another Cool Project"
-    project_page: "https://github.com/username/project2"
-    image: illuminerf_before.jpg
-    description: "Short description of another project."
+  # - title: "Another Cool Project"
+  #   project_page: "https://github.com/username/project2"
+  #   image: illuminerf_before.jpg
+  #   description: "Short description of another project."
   
-  - title: "Project Without Image"
+  # - title: "Project Without Image"
+  #   project_page: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
+  #   description: "This project does not have an image."
+
+  - title: "Panoramic Video Synopsis in Timelapse"
     project_page: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
-    description: "This project does not have an image."
+    image: synopsis_01.jpg
+    image_mouseover: "synopsis_mouseover.mp4" 
+    description: Reducing spatio-temporal redundancy in dynamic video footage. Additionally, optical flow techniques are employed to generate a panoramic view, allowing for a comprehensive visualization of dynamic scenes.
+
+  - title: "Controllable Heliotrope Video"
+    project_page: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
+    image: heliotrope.jpg
+    image_mouseover: "heliotrope_mouseover.mp4" 
+    description: The system follows the user's specified path, generating a continuous and controlled video sequence. A graph-based approach is used, where images are represented as nodes, and edges connect similar images based on appearance distance.
