@@ -1,9 +1,24 @@
-- id: auto
-  title: "Automatic bacterial colony culture counting system(Chinese)"
+- id: culture
+  title: "Automatic bacterial colony culture counting system (CN)"
   year: China, 2023
   description: "Colony counter."
   patent_page: https://patents.google.com/patent/CN219792975U/en
-  arxiv: 2202.08730v2
+  patent_number: CN219792975U
+  authors:
+    - xinqun
+    - zhenbo
+    - yongquan
+    - hongbing
+    - jialin
+
+
+
+- id: auto 
+  title: "Automatic colony counting method and system (CN)"
+  year: China, 2023
+  description: "Colony counter."
+  patent_page: https://patents.google.com/patent/CN116263955A/en
+  patent_number: CN116263955A
   authors:
     - xinqun
     - zhenbo
