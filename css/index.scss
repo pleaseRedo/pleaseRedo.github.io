@@ -91,6 +91,32 @@
         video {
             display: none;
         }
+        /* 
+          1) The hover-image is also hidden by default.
+          2) On hover, we can show this image if present.
+          3) This co-exists with the video logic.
+        */
+        .hover-image {
+            display: none;
+            width: 100%;
+            height: 100%;
+            /* object-fit: cover;   <— Optional if you want similar scaling to video */
+        }
+
+        /* 
+          On hover, we show both the video and the hover-image. 
+          Your condition code in JS/template can include or exclude 
+          whichever one is actually needed.
+        */
+        &:hover {
+            video {
+                display: block;
+            }
+
+            .hover-image {
+                display: block;
+            }
+        }
     }
 
     .publication-description {
@@ -102,4 +128,5 @@
         margin: 0 !important;
         margin-top: 0.5em !important;
     }
+
 }
