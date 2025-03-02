@@ -17,7 +17,24 @@
     image: 545.png
     image_mouseover: "545_res.jpg"
     description: ChromaPH is an image-processing algorithm that determines pH values from a single photo. By automatically identifying and comparing the color regions on a pH test strip and its reference chart, it provides fast and accurate measurements.
+  
+  - title: "Automatic Colony counter"
+    # github: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
+    image: counter.jpg
+    image_mouseover: "counter_mouseover_speed.mp4"
+    description: ChromaPH is an image-processing algorithm that determines pH values from a single photo. By automatically identifying and comparing the color regions on a pH test strip and its reference chart, it provides fast and accurate measurements.
 
+  - title: "cell analysis"
+    # github: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
+    image: counter.jpg
+    image_mouseover: "counter_mouseover_speed.mp4"
+    description: cardiocell analysis
+
+  - title: "Ultrafine starndardized card object detection"
+    # github: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
+    image: counter.jpg
+    image_mouseover: "counter_mouseover_speed.mp4"
+    description: cardiocell analysis   
 
   - title: "Panoramic Video Synopsis in Timelapse"
     github: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
