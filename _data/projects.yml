@@ -12,11 +12,12 @@
   # - title: "Project Without Image"
   #   project_page: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
   #   description: "This project does not have an image."
-  - title: "pH Detection"
+  - title: "ChromaPH"
     # github: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
     image: 545.png
     image_mouseover: "545_res.jpg"
-    description: Gives pH readings by matching pH color from test strip to color sheet.
+    description: ChromaPH is an image-processing algorithm that determines pH values from a single photo. By automatically identifying and comparing the color regions on a pH test strip and its reference chart, it provides fast and accurate measurements.
+
 
   - title: "Panoramic Video Synopsis in Timelapse"
     github: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
