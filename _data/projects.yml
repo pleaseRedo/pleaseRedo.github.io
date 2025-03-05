@@ -18,23 +18,25 @@
     image_mouseover: "545_res.jpg"
     description: ChromaPH is an image-processing algorithm that determines pH values from a single photo. By automatically identifying and comparing the color regions on a pH test strip and its reference chart, it provides fast and accurate measurements.
   
-  - title: "Automatic Colony counter"
-    # github: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
+  - title: "ColonyTrack"
     image: counter.jpg
-    image_mouseover: "counter_mouseover_speed.mp4"
-    description: ChromaPH is an image-processing algorithm that determines pH values from a single photo. By automatically identifying and comparing the color regions on a pH test strip and its reference chart, it provides fast and accurate measurements.
+    image_mouseover: "counter_mouseover.mp4"
+    description: ColonyTrack is an image-processing algorithm for automated colony counting and growth analysis. By aligning images of the same petri dish taken at different time points, it tracks colony development and provides accurate growth-based quantification.
+  
+  - title: "ColonyTrack-Contact plate"
+    image: 114.png
+    image_mouseover: "contact_res.mp4"
+    description: An algorithm for automated colony counting on contact plates. It enhances noise resistance by handling grid lines and logos while aligning multi-timepoint images to track colony growth with high accuracy.
 
-  - title: "cell analysis"
-    # github: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
-    image: counter.jpg
-    image_mouseover: "counter_mouseover_speed.mp4"
-    description: cardiocell analysis
+  - title: "Cardiomyocytes Contraction Analysis"
+    image: muscle.png
+    image_mouseover: "muscle_vid.mp4"
+    description: By processing in vitro heart cell videos, the algorithm accurately detects and quantifies rhythmic contractions, providing crucial insights for cardiac research and therapeutic development.
 
-  - title: "Ultrafine starndardized card object detection"
-    # github: https://github.com/pleaseRedo/Controllable-Heliotrope-Video
-    image: counter.jpg
-    image_mouseover: "counter_mouseover_speed.mp4"
-    description: cardiocell analysis   
+  - title: "Ultrafine Standardized Card Object Detection"
+    image: testcard.jpg
+    image_mouseover: "testcard_res.png"
+    description: An algorithm for detecting targets on standardized test cards. Capable of identifying features as small as 0.13mm in diameter,
 
   - title: "Panoramic Video Synopsis in Timelapse"
     github: https://github.com/pleaseRedo/Panoramic-Video-Synopsis-in-Timelapse
