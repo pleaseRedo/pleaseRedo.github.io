@@ -41,7 +41,14 @@ layout: null
         <div class="column">
           <h1 class="title is-2">{{ site.name }}</h1>
           <h1 class="subtitle is-5">{{ site.position }}</h1>
-          <a href="./images/cv-eng.pdf"><strong>CV pdf</strong></a>
+          <!-- <a href="./images/cv-eng.pdf">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span>
+            <strong>CV</strong>
+          </a> -->
+          <!-- <a class="external-link button  is-ghost" href="./images/cv-eng.pdf">
+            <span class="icon"><i class="fas fa-file-pdf"></i></span>
+            <span>CV</span>
+          </a> -->
         </div>
         <div class="column is-narrow portrait-column">
           <img class="portrait-image" src="./images/portrait.jpg" alt="A portrait of Keunhong Park" />
@@ -60,16 +67,22 @@ layout: null
               {{ site.github_username }}
             </a>
           </p>
-          <p>
+          <!-- <p>
             <a href="https://twitter.com/{{ site.twitter_username }}">
               <i class="fab fa-twitter"></i>
               {{ site.twitter_username }}
             </a>
-          </p>
+          </p> -->
           <p>
             <a href="mailto:{{ site.email }}">
               <i class="fas fa-envelope"></i>
               {{ site.email }}
+            </a>
+          </p>
+          <p>
+            <a href="./images/cv-eng.pdf">
+              <i class="fas fa-file-pdf"></i>
+              <span>CV.pdf</span>
             </a>
           </p>
         </div>
