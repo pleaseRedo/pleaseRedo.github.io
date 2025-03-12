@@ -1,6 +1,8 @@
 - name: University College London
   description: >-
-    MSc. in Computer Graphics, Vision and Imaging, advised by <a href="https://profiles.ucl.ac.uk/3815-lewis-griffin/">Lewis Griffin</a>
+    MSc. in Computer Graphics, Vision and Imaging, advised by <a href="https://profiles.ucl.ac.uk/3815-lewis-griffin/">Lewis Griffin</a>.
+    <br />
+    Thesis: <a href="./documents/report.pdf">Optimizing Recognition Representation for Use in Anomaly Detection</a>.
      <br />
 
   #  <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>
@@ -8,8 +10,8 @@
 
 - name: University of Bath
   description: >-
-    BSc. in Computer Science, advised by <a href="https://www.yongliangyang.net/">Yong-Liang Yang</a>.
-    Supported by Bath Excellence in Science 2013 
+    BSc. in Computer Science, advised by <a href="https://www.yongliangyang.net/">Yong-Liang Yang</a>.  <br />
+    Supported by Bath Excellence in Science 2013 Scholarship. (£2,000/year)  <br />
 
-  # (£2,000/year)
+  # 
   dates: Fall 2013 - Spring 2017
