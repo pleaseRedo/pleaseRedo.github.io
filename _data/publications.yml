@@ -4,6 +4,7 @@
   description: "Using an optimized RetinaNet structure for polyp detection."
   arxiv: 2202.08730v2
   image: polyp.png
+  project_page: https://arxiv.org/abs/2202.08730
   authors:
     - jialin
     - huogen
