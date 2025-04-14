@@ -28,6 +28,11 @@
     image_mouseover: "contact_res.mp4"
     description: An algorithm for automated colony counting on contact plates. It enhances noise resistance by handling grid lines and logos while aligning multi-timepoint images to track colony growth with high accuracy.
 
+  - title: "Sterility Detection in Microbial Growth Time-Series Data"
+    image: ast.png
+    image_mouseover: "ast_mouseover.png"
+    description: Automative sterility test by detecting a change point in a univariate microbial time series using a simplified CUSUM algorithm.
+
   - title: "Cardiomyocytes Contraction Analysis"
     image: muscle.png
     image_mouseover: "muscle_vid.mp4"
