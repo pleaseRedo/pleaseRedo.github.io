@@ -2,7 +2,7 @@
   title: "Automatic bacterial colony culture counting system (CN)"
   year: China, 2023
   description: "Colony counter."
-  patent_page: https://patents.google.com/patent/CN219792975U/en
+  patent_page: https://worldwide.espacenet.com/publicationDetails/biblio?II=0&ND=3&adjacent=true&locale=en_EP&FT=D&date=20231003&CC=CN&NR=219792975U&KC=U
   patent_number: CN219792975U
   authors:
     - xinqun
@@ -17,7 +17,7 @@
   title: "Automatic colony counting method and system (CN)"
   year: China, 2023
   description: "Colony counter."
-  patent_page: https://patents.google.com/patent/CN116263955A/en
+  patent_page: https://worldwide.espacenet.com/publicationDetails/biblio?II=0&ND=3&adjacent=true&locale=en_EP&FT=D&date=20230616&CC=CN&NR=116263955A&KC=A
   patent_number: CN116263955A
   authors:
     - xinqun
@@ -25,3 +25,36 @@
     - yongquan
     - hongbing
     - jialin
+
+
+- id: rgbsens 
+  title: "Continuous monitoring method and system for sterile environment based on RGB sensor (CN)"
+  year: China, 2024
+  description: "RGB sensor."
+  patent_page: https://worldwide.espacenet.com/publicationDetails/biblio?II=0&ND=3&adjacent=true&locale=en_EP&FT=D&date=20250228&CC=CN&NR=119534058A&KC=A
+  patent_number: CN119534058A
+  authors:
+    - zhenbo    
+    - hongbing
+    - chengfei
+    - yongquan
+    - zijian
+    - xujing
+    - jialin
+    - xinqun
+
+- id: aicam 
+  title: "AI camera-based continuous monitoringsystem, method, device and readable storage medium for sterile environment (CN)"
+  year: China, 2024
+  description: "AI camera."
+  patent_page: https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=119574233A&KC=A&FT=D
+  patent_number: CN119574233A
+  authors:
+    - zhenbo    
+    - hongbing
+    - chengfei
+    - yongquan
+    - zijian
+    - xujing
+    - jialin
+    - xinqun
